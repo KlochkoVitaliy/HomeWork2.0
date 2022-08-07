@@ -15,12 +15,12 @@ public class Main {
 
         float BoxOneWeight = 78.2f;
         float BoxTwoWeight = 82.7f;
-        float AllBoxWeight = BoxOneWeight + BoxTwoWeight;
+        float AllBoxWeight  = BoxOneWeight + BoxTwoWeight;
 
         System.out.println("Общий вес боксеров = " + AllBoxWeight + " кг " );
 
-        float DifferenceBoxWeight = BoxOneWeight - BoxTwoWeight;
-        System.out.println("Разница между весами боксеров = " + DifferenceBoxWeight + " кг ");
+        float  DifferenceBoxWeight = BoxOneWeight - BoxTwoWeight;
+        System.out.println("Разница между весами боксеров = " + Math.abs (DifferenceBoxWeight )+ " кг ");
 
  // Задание 3
 
